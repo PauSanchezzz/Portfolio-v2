@@ -18,12 +18,12 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Paula Sanchez - Frontend Architect & Technical Leader",
+  title: "Paula Sanchez - Software Developer",
   description: "Frontend developer specializing in building scalable, maintainable solutions for enterprise applications. Expert in React, Angular, TypeScript, and modern web technologies.",
   keywords: ["Frontend Developer", "React", "Angular", "TypeScript", "Web Development", "UI/UX", "Technical Leadership"],
   authors: [{ name: "Paula Sanchez" }],
   openGraph: {
-    title: "Paula Sanchez - Frontend Architect & Technical Leader",
+    title: "Paula Sanchez - Software Developer",
     description: "Building scalable, maintainable solutions for enterprise applications",
     type: "website",
   },

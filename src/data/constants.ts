@@ -207,7 +207,7 @@ export const CONTACT_INFO: ContactInfo = {
 export const HERO_CONTENT = {
   greeting: 'Hi, I\'m',
   name: 'Paula Sanchez',
-  title: 'Frontend Architect & Technical Leader',
+  title: 'Software Developer',
   subtitle:
     'Building scalable, maintainable solutions for enterprise applications. Specialized in leading frontend development teams and architecting high-impact web experiences.',
   cta: {
