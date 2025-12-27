@@ -1,4 +1,4 @@
-# Portafolio de Desarrolladora - V2
+# Portafolio - V2
 
 Bienvenido a mi portafolio, un sitio web creado para mostrar mis habilidades, proyectos y experiencias como desarrolladora de software. Este portafolio ha sido desarrollado con Next.js 15, React 19, TypeScript y Tailwind CSS, y está diseñado para ofrecer una experiencia de usuario intuitiva, atractiva y bilingüe.
 
