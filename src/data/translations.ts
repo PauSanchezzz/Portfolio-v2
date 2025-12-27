@@ -65,7 +65,7 @@ export const translations = {
       sendEmail: 'Send Me an Email',
     },
     footer: {
-      title: 'Frontend Architect & Technical Leader',
+      title: 'Software Developer',
       quickLinks: 'Quick Links',
       connect: 'Connect',
       copyright: 'All rights reserved.',
