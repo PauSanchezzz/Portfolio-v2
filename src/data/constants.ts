@@ -1,11 +1,41 @@
 import { Project, Skill, Service, ContactInfo } from '@/types';
 
 export const PROJECTS: Project[] = [
+{
+    id: 'work-project',
+    title: 'Work Project',
+    image: '/hero-workspace.png',
+    technologies: [
+      {
+        name: 'Nuxt',
+        icon: '/svg/nuxt.png',
+        color: 'bg-blue-600',
+        hoverColor: 'hover:shadow-blue-600/50',
+      },
+      {
+        name: 'TypeScript',
+        icon: '/svg/ts.svg',
+        color: 'bg-blue-600',
+        hoverColor: 'hover:shadow-blue-600/50',
+      },
+      {
+        name: 'Sass',
+        icon: '/svg/sass.png',
+        color: 'bg-blue-600',
+        hoverColor: 'hover:shadow-blue-600/50',
+      },
+      {
+        name: 'Pinia',
+        icon: '/svg/pinia.webp',
+        color: 'bg-blue-600',
+        hoverColor: 'hover:shadow-blue-600/50',
+      },
+    ],
+    featured: true,
+},
   {
     id: 'cat-chat',
     title: 'Cat Chat',
-    description:
-      'Architected a real-time chat application with WebSocket infrastructure, implementing secure authentication and scalable database design. Built with modern web technologies, featuring user registration, breed selection, and live messaging capabilities. Demonstrates expertise in full-stack development and real-time communication protocols.',
     image: '/projects/catchat.png',
     github: 'https://github.com/PauSanchezzz/CatChat',
     technologies: [
@@ -34,13 +64,10 @@ export const PROJECTS: Project[] = [
         hoverColor: 'hover:shadow-gray-900/50',
       },
     ],
-    featured: true,
   },
   {
     id: 'analytics-dashboard',
     title: 'Analytics Dashboard - Microchipped Animals',
-    description:
-      'Designed and developed a comprehensive data visualization dashboard analyzing pet registration data across Bogotá. Implemented advanced DAX calculations and interactive visualizations to reveal insights on species distribution, breed preferences by socioeconomic zones, and naming patterns. Showcases expertise in data analysis, business intelligence, and creating actionable insights from complex datasets.',
     image: '/projects/dashboard.png',
     powerbi:
       'https://app.powerbi.com/view?r=eyJrIjoiMWVlYjFjZjEtZmU1Yy00MDZiLWFhYTItYjk0NDg5ZjBlODUwIiwidCI6ImQ1MTM4OGVmLTZhYjAtNDM2My05Zjk0LWQ1NjY0NGE0NTk3MCIsImMiOjR9',
@@ -64,13 +91,10 @@ export const PROJECTS: Project[] = [
         hoverColor: 'hover:shadow-blue-700/50',
       },
     ],
-    featured: true,
   },
   {
     id: 'personal-portfolio',
     title: 'Personal Portfolio',
-    description:
-      'Developed a modern, responsive portfolio website showcasing technical expertise and project work. Built with Angular 17+ and Tailwind CSS, featuring component-based architecture, smooth animations, and mobile-first responsive design. Implements best practices in frontend development including semantic HTML, accessibility standards, and performance optimization.',
     image: '/projects/portfoliov1.png',
     github: 'https://github.com/PauSanchezzz/Portfolio/tree/main',
     technologies: [
@@ -103,8 +127,6 @@ export const PROJECTS: Project[] = [
   {
     id: 'life-chronicles',
     title: 'Life Chronicles',
-    description:
-      'Led the development of a mobile application for discovering activities and locations in Bogotá. Architected the app using MVVM pattern with Kotlin and Jetpack Compose, implementing Firebase authentication and real-time database. Collaborated with design team to create an intuitive user experience. Demonstrates leadership in mobile development and modern Android architecture patterns.',
     image: '/projects/lifechronicles.jpg',
     github: 'https://github.com/PauSanchezzz/LifeChronicles',
     figma: 'https://www.figma.com/design/iNQglGD2qkIdZ7rHrJ1zBL/Componentes-M3?node-id=0-1',
@@ -134,7 +156,6 @@ export const PROJECTS: Project[] = [
         hoverColor: 'hover:shadow-green-600/50',
       },
     ],
-    featured: true,
   },
 ];
 
@@ -147,6 +168,7 @@ export const SKILLS: Skill[] = [
   { name: 'Tailwind CSS', icon: '/svg/tailwind.svg', category: 'frontend' },
   { name: 'HTML', icon: '/svg/html.svg', category: 'frontend' },
   { name: 'CSS', icon: '/svg/css.svg', category: 'frontend' },
+  { name: 'Sass', icon: '/svg/sass.png', category: 'frontend' },
   { name: 'JavaScript', icon: '/svg/js.svg', category: 'frontend' },
   { name: 'TypeScript', icon: '/svg/ts.svg', category: 'frontend' },
   { name: 'Pinia', icon: '/svg/pinia.webp', category: 'frontend' },
