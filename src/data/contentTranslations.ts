@@ -1,5 +1,9 @@
 export const projectTranslations = {
   en: {
+    'work-project': {
+      title: 'Work Project',
+      description: 'I led the frontend development of a major event center in Colombia, creating a ticketing and product management system with dynamic payment gateways, using TypeScript, Nuxt, Sass, and Pinia, and collaborating closely with UX/UI, Backend, QA, and clients to deliver high-value solutions.',
+    },
     'cat-chat': {
       title: 'Cat Chat',
       description: 'Cat Chat is a chat app exclusively for cat lovers. Here, users can register with their email address, password, and username, and then choose from five cat breeds: Bombay, Tuxedo, Siamese, Calico, and Tortoiseshell.',
@@ -18,6 +22,10 @@ export const projectTranslations = {
     },
   },
   es: {
+    'work-project': {
+      title: 'Proyecto Laboral',
+      description: 'Lideré el desarrollo frontend de un importante centro de eventos en Colombia, creando un sistema de gestión de boletería y productos con pasarelas de pago dinámicas, usando TypeScript, Nuxt, Sass y Pinia, y colaborando estrechamente con UX/UI, Backend, QA y clientes para entregar soluciones de alto valor.',
+    },
     'cat-chat': {
       title: 'Cat Chat',
       description: 'Cat Chat es una aplicación de chat exclusiva para amantes de los gatos. Aquí, los usuarios pueden registrarse con su correo electrónico, contraseña y nombre de usuario, y luego elegir entre cinco razas de gatos: Bombay, Tuxedo, Siames, Calico y Carey.',

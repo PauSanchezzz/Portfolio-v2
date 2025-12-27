@@ -55,10 +55,10 @@ export const ProjectsSection: React.FC = () => {
                   {project.featured && (
                     <div className="absolute top-4 right-4 bg-gradient-primary px-3 py-1 rounded-full text-xs font-semibold">
                       {t.projects.featured}
+                      
                     </div>
                   )}
                 </div>
-                {/* space-y-4 */}
                 {/* Project Content */}
                 <div className=" flex flex-col justify-between lg:min-h-[400px] gap-4">
                   <h3 className="text-2xl font-bold text-white  group-hover:bg-clip-text group-hover:bg-gradient-primary transition-all">
