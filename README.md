@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio de Desarrolladora - V2
 
-## Getting Started
+Bienvenido a mi portafolio, un sitio web creado para mostrar mis habilidades, proyectos y experiencias como desarrolladora de software. Este portafolio ha sido desarrollado con Next.js 15, React 19, TypeScript y Tailwind CSS, y está diseñado para ofrecer una experiencia de usuario intuitiva, atractiva y bilingüe.
 
-First, run the development server:
+## Tecnologías Utilizadas
+
+- **Next.js 15**: Framework principal para el desarrollo de la aplicación con App Router.
+- **React 19**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Tipado estático para mayor robustez y mantenibilidad del código.
+- **Tailwind CSS**: Framework de utilidades CSS para un diseño moderno y responsive.
+- **Framer Motion**: Biblioteca de animaciones para transiciones fluidas y efectos visuales.
+
+## Características Clave
+
+- **Diseño Responsive**: Adaptación completa a diferentes tamaños de pantalla para una experiencia óptima en dispositivos móviles y de escritorio.
+- **Bilingüe**: Soporte completo para español e inglés con cambio de idioma dinámico y persistencia en localStorage.
+- **Animaciones Suaves**: Transiciones y efectos visuales modernos utilizando Framer Motion.
+- **Modo Oscuro**: Diseño optimizado con tema oscuro profesional y colores vibrantes.
+- **Navegación Intuitiva**: Menú responsive con scroll suave entre secciones.
+
+## Configuración
+
+Sigue estos pasos para configurar y ejecutar la aplicación en tu máquina local:
+
+1. Clona este repositorio en tu máquina local.
+
+```bash
+git clone https://github.com/PauSanchezzz/portfolio-v2.git
+```
+
+2. Accede al directorio del proyecto.
+
+```bash
+cd portfolio-v2
+```
+
+3. Instala las dependencias.
+
+```bash
+npm install
+```
+
+4. Inicia la aplicación en modo desarrollo.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts Disponibles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm start` - Inicia el servidor de producción
+- `npm run lint` - Ejecuta el linter para verificar el código
 
-## Learn More
+## Vista Previa
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Portafolio V2](public/screenshots/portfolio-v2.png)

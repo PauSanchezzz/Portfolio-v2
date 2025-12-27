@@ -200,7 +200,7 @@ export const SERVICES: Service[] = [
 export const CONTACT_INFO: ContactInfo = {
   email: 'pausanchezt12@gmail.com',
   github: 'https://github.com/PauSanchezzz',
-  linkedin: 'https://www.linkedin.com/in/pau-sanchez',
+  linkedin: 'www.linkedin.com/in/paula-andrea-sanchez-torres',
   location: 'Bogotá, Colombia',
 };
 
